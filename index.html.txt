@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Anushka Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Anushka</h1>
+  <p>BCA Student | Web Developer</p>
+
+  <h2>Skills</h2>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>Python</li>
+    <li>C Language</li>
+  </ul>
+
+  <h2>Contact Me</h2>
+  <input type="text" id="name" placeholder="Enter Name"><br>
+  <input type="email" id="email" placeholder="Enter Email"><br>
+  <textarea id="message" placeholder="Enter Message"></textarea><br>
+  <button onclick="sendMessage()">Send</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
